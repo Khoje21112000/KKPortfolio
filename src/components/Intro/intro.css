@@ -49,8 +49,17 @@
 .btn:hover {
     background-color: lightblue; /* Change background color on hover */
 }
-@media screen and (max-width:480px){
-    .bg{
-        right:-20vw;
+@media screen and (max-width: 840px) {
+    /* Styles for tablets and smaller screens */
+    .bg {
+        right: -150vw; /* Adjust background position */
+    }
+    .introContent {
+        padding: 1rem; /* Reduce padding for smaller screens */
+        font-size: 10vw; /* Adjust font size */
+    }
+    .hello{
+        font-size: 4.5vw;
+
     }
 }
